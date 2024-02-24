@@ -1,0 +1,32 @@
+.html,body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url("home.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 40rem; /* You must set a specified height */
+    width: 100vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.text-truncate{
+    width: 150px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.go-top{
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    background: none;
+    font-size: 10px;
+    z-index: 100;
+}
+.link-active{
+    text-decoration: underline !important;
+}
